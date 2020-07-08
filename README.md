@@ -6,10 +6,11 @@
 ```
 2) docker-compose up -d
 3) ./composer install
-4) cd bgs; npm install; npm run production
-5) ./artisan migrate
-6) ./artisan test --filter=ApiTest
-7) ./artisan db:seed --class=EventSeeder
+4) ./artisan migrate
+5) ./artisan test --filter=ApiTest
+6) ./artisan db:seed --class=EventSeeder
+7) cd bgs; npm install; npm run production
+8) http://bgs.test
 
 
 # Консоль
@@ -17,3 +18,6 @@
 ```sh
 docker-compose exec app bash
 ```
+
+# Email 
+Сохраняю в виде файла в storage/app/email-*
