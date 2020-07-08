@@ -1,0 +1,10 @@
+# Logs
+/log
+
+# Data storage
+/data
+
+
+# Common
+.DS_Store
+/bgs/.idea
