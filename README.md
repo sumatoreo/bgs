@@ -21,3 +21,8 @@ docker-compose exec app bash
 
 # Email 
 Сохраняю в виде файла в storage/app/email-*
+
+# Postman
+
+Коллекция запросов для тестов
+BGS.postman_collection.json
